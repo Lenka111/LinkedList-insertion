@@ -9,6 +9,7 @@ public class Main {
         Integer three = 3;
         Integer four = 4;
 
+        //test code
         IntegerLinkedList list = new IntegerLinkedList();
         list.insertSorted(three);
         list.printList();
