@@ -1,4 +1,4 @@
-package academy.learnprogramming.challenge2;
+//Elena Voinu
 
 public class Main {
 
