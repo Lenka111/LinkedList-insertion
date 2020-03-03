@@ -1,4 +1,4 @@
-package academy.learnprogramming.challenge2;
+
 
 public class IntegerLinkedList {
 
@@ -9,6 +9,7 @@ public class IntegerLinkedList {
         IntegerNode node = new IntegerNode(value);
         node.setNext(head);
         head = node;
+        //increase the size of the list
         size++;
     }
 
@@ -35,6 +36,7 @@ public class IntegerLinkedList {
         IntegerNode current = head.getNext();
         IntegerNode previous = head;
         while(current!=null && current.getValue() < value){
+            //make room for the new element
             previous = current;
             current = current.getNext();
 
