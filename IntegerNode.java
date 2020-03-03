@@ -1,4 +1,3 @@
-package academy.learnprogramming.challenge2;
 
 public class IntegerNode {
 
